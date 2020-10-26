@@ -1,0 +1,9 @@
+.buttons{
+  width:200px;
+  text-align: center;
+}
+.buttons button{
+  padding: 1px;
+  width: 35px;
+
+}

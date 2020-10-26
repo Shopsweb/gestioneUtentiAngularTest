@@ -1,0 +1,34 @@
+<h2>Scheda Utente</h2>
+<table class="table table-dark">
+  <tr>
+    <th>Nome</th>
+    <td>{{User.name}}</td>
+  </tr>
+  <tr>
+    <th>Cognome</th>
+    <td>{{User.lastname}}</td>
+  </tr>
+  <tr>
+    <th>Codice Fiscale</th>
+    <td>{{User.fiscalcode}}</td>
+  </tr>
+  <tr>
+    <th>Email</th>
+    <td>{{User.email}}</td>
+  </tr>
+  <tr>
+    <th>Telefono</th>
+    <td>{{User.phone}}</td>
+  </tr>
+  <tr>
+    <th>Eta'</th>
+    <td>{{User.age}}</td>
+  </tr>
+  <tr>
+    <th>Province</th>
+    <td>{{User.province}}</td>
+  </tr>
+  <tfoot>
+  <tr> <td colspan="2"><button class="btn btn-primary" (click)="backToUsers()">BACK</button></td> </tr>
+  </tfoot>
+</table>
